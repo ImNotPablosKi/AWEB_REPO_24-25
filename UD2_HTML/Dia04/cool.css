@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+blockquote, address {
+    color: aliceblue;
+}

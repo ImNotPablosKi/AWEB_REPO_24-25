@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+    <hr>
+    <!--Tablas en HTML-->
+    <table style="width: 100%;">
+        <!--Primer Elemento-->
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>IES</th>
+        </tr>
+        <tr>
+            <td>Alberto</td>
+            <td>Rodriguez</td>
+            <td>Segundo de Chomon</td>
+        </tr>
+        <tr>
+            <td>Pascual</td>
+            <td>Perez</td>
+            <td>Segundo de Chomon</td>
+        </tr>
+        <tr>
+            <td>Lidia</td>
+            <td>Gullen</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h1>Tablas Personalizadas</h1>
+    <hr>
+    <table style="width: 100%;">
+        <!--Con ALT pulsado podemos escribir muchas veces, con * y numero sacamos varias a la vez-->
+        <tr>
+            <!--Con colspan / rowspan decimos cuantos espacios debe ocupar-->
+            <th colspan="4">Lunes</th>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">FIESTA</td>
+            <td>SOR</td>
+            <td>AO</td>
+        </tr>
+        <tr>
+            <td>MOME</td>
+            <td>SI</td>
+        </tr>
+        <tr>
+            <td colspan="3">AWEB</td>
+            <td>SR</td>
+        </tr>
+    </table>
+</body>
+</html>
