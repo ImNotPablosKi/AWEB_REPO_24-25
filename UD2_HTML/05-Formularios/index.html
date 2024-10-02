@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1
+        style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: grey;">
+        Formularios en HTML </h1>
+    <!-- Todos los formularios van entre la etiqueta form-->
+
+    <form>
+        <fieldset>
+            <legend style="font-family: 'Times New Roman', Times, serif;">Formulario Tremendo</legend>
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" name="main_name" placeholder="Escribe el nombre">
+            </p>
+            <p>
+                <label for="col">Seleccione su Color de Piel:</label>
+                <input id="col" type="color">
+            <p>
+                <label for="marron">En caso de color marrón, seleccione Intensidad:</label>
+                <input type="range" name="marron" id="marron">
+            </p>
+            </p>
+            <p>
+                <label for="email">Correo del Usuario:</label>
+                <input type="email" name="correo_electronico" id="email" placeholder="Correo">
+            </p>
+            <p>
+                <label for="passwd">Introduzca una Contraseña:</label>
+                <input type="password" name="contrasena" id="passwd" placeholder="Contraseña">
+            </p>
+            <p>
+                <input type="submit" value="Finalizar / Enviar Formulario">
+            </p>
+            <p>
+                <input type="reset" value="Borrar datos">
+            </p>
+            
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
