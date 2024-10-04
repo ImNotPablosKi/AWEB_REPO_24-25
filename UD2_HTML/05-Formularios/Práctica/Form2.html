@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Formulario de Registro</h1>
+    <form action="">
+        <fieldset>
+            <legend>Registro</legend>
+            <label for="name">Nombre:</label><input type="text" name="nombre" id="name"><br><br>
+            <label for="apellido">Apellidos:</label><input type="text" name="ape" id="apellido"><br><br>
+            <label for="sexo">Sexo: Femenino</label><input type="radio" name="sex" id="sexo">
+            <label for="sexo2">Sexo: Masculino</label><input type="radio" name="sex" id="sexo2"><br><br>
+            <label for="correo">Correo:</label><input type="email" name="mail" id="correo"><br><br>
+            <label for="pob">Población:</label><select name="poblacion" id="pob">
+                <option value="Alicante"></option>
+                <option value="Valencia"></option>
+                <option value="Teruel"></option>
+            </select><br>
+            <label for="dem">Descripción:</label><br>
+            <textarea name="comment" id="des"></textarea><br>
+            <input type="checkbox" name="offer" id="deseo1"><label for="deseo1">Deseo recibir Info y Ofertas</label><br>
+            <input type="checkbox" name="terms" id="deseo2"><label for="deseo1">Declaro haber leído y acepto los
+                términos generales.</label>
+        </fieldset>
+        <fieldset>
+            <legend>Enviar Formulario</legend>
+            <button class="button_slide slide_right" type="button"><b>-- //ENVIAR FORMULARIO// --</b></button>
+            
+        </fieldset>
+    </form>
+</body>
+
+</html>

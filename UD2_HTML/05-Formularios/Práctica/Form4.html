@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Pedido de Pizza</h1>
+    <form action="">
+        <fieldset>
+            <legend>La Pizza</legend>
+            <p>
+                Ingredientes: <br><br><br>
+                <input type="checkbox" name="queso" id="qs"><label for="bcqs">Queso</label><br>
+                <input type="checkbox" name="Pimiento" id="pim"><label for="pech">Pimiento</label><br>
+                <input type="checkbox" name="cebolla" id="ceb"><label for="brvs">Cebolla</label><br>
+                <br><br>
+                Tamaño:
+                <br><br>
+                <input type="radio" name="tamano" id="bcqs"><label for="bcqs">Pequeño</label><br>
+                <input type="radio" name="tamano" id="pech"><label for="pech">Mediano</label><br>
+                <input type="radio" name="tamano" id="brvs"><label for="brvs">Grande</label><br>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de entrega</legend>
+            <label for="nom">Nombre: </label><input type="text" id="nom" name="Nombre"> <br>
+            <label for="dir">Dirección: </label><input type="text" id="dir" name="direccion"> <br>
+            <label for="tel">Teléfono: </label><input type="tle" id="tel" name="Telefono"> <br>
+            
+            <label for="Inst">Instrucciones especiales</label><br>
+            <textarea id="Inst" rows="10" cols="30"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Método de pago</legend>
+            <select>
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tarjeta">Tarjeta de Crédito</option>
+            </select>
+        </fieldset>
+        <button type="submit">Ok</button>
+    </form>
+</body>
+</html>

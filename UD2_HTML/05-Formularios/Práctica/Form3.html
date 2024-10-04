@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro2</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Bienvenido al Registro de usuarios de nuestro foro.</h1>
+    <form action="">
+        <fieldset>
+            <legend>Introduzca un usuario y contraseña:</legend>
+            <label for="user">Usuario: </label><input type="text" name="usuario" id="user"><br><br>
+            <br>
+            <label for="passwd">Contraseña: </label><input type="password" name="contra" id="passwd">
+            <label for="passwd2">Contraseña: </label><input type="password" name="contra2" id="passwd2">
+        </fieldset>
+        <p>
+            <label for="interes">Describa sus Intereses...</label><br>
+            <textarea name="des" id="interes" rows="4" cols=""></textarea>
+        </p>
+        <p>
+            <label for="SO">Por último seleccione su SO:</label>
+            <select name="so" id="SO">
+                <option value="Linux">Linux</option>
+                <option value="MacOS">MacOS</option>
+                <option value="MS Windows">MS Windows</option>
+            </select>
+        </p>
+        <p>
+            <label for="deseo1">Estoy conforme con la política de privacidad de la página:</label><input type="checkbox"
+                name="offer" id="deseo1"><button class="button_slide slide_right"
+                type="button"><b>Registrarme</b></button>
+        </p>
+    </form>
+</body>
+
+</html>
