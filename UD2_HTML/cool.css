@@ -2,6 +2,12 @@ body {
     background-color: black;
 }
 
+header {
+ background-color: #d4ba72;
+ color: aliceblue;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+}
 p {
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -28,7 +34,7 @@ input {
 }
 
 hr {
-    border-width: 3px;
+    border-width: 2px;
     border-color: rgb(233, 202, 125);
     border-radius: 200px;
 }
