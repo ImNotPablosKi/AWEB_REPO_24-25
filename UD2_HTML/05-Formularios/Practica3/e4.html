@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ4</title>
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjxjckZbUJMI2sKVNBtIA-JtYrM8O-SY9WTg&s" alt="Pizza">
+    <fieldset>
+            <legend>Configura tu Pizza</legend>
+            <br>
+            <label>Tipos de masa:</label>
+            <input type="radio" name="masa" id="fina"><label for="fina">Fina</label>
+            <input type="radio" name="masa" id="gorda"><label for="gorda">Gorda</label>
+            <br><br>
+            <label>Tipos de Salsa:</label>
+            <input type="radio" name="salsa" id="tomate"><label for="tomate">Tomate</label>
+            <input type="radio" name="salsa" id="barbacoa"><label for="barbacoa">Barbacoa</label>
+            <input type="radio" name="salsa" id="carbonara"><label for="carbonara">Carbonara</label>
+            <br><br>
+            <label>Queso:</label>
+            <input type="radio" name="queso" id="si"><label for="si">Si</label>
+            <input type="radio" name="queso" id="no"><label for="no">No</label>
+            <br>
+            <br>
+            <label for="ing">Ingredientes:</label>
+            <select name="ing" id="ing">
+                <option value="q">Queso extra</option>
+                <option value="b">bacon</option>
+                <option value="e">Embutidos Italianos</option>
+                <option value="s">Extra Sal</option>
+                <option value="h">Extra Harina</option>
+                <option value="o">Olivo</option>
+                <option value="a">Agua</option>
+                <option value="m">Mozzarella</option>
+                <option value="aj">Ajo</option>
+                <option value="or">Oregano</option>
+            </select>
+            <br><br>
+            <label>Tamaño de la Pizza </label>
+            <select name="tam" id="tam">
+                <option value="peq">Pequeña</option>
+                <option value="gra">Grande</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de Pago</legend>
+            <br>
+            <label for="num">Numero de Cuenta</label>
+            <input type="text" id="num" name="num">
+            <br>
+            <label for="cad">Mes de Caducidad</label>
+            <input type="date" name="mes" id="caducidad">
+            <br>
+            <label for="seg">Código de Seguridad:</label>
+            <input type="text" name="seguridad" id="seg">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de entrega</legend>
+            <br>
+            <label for="direcc">Direccion Completa:</label>
+            <input type="text" name="direccion" id="direcc"><br>
+            <label for="obv">Observaciones:</label><br><textarea name="obv" id="obv"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Finalizar</legend>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reiniciar</button>
+        </fieldset>
+</body>
+</html>
