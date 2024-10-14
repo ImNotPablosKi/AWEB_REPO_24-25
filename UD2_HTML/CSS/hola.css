@@ -1,7 +1,15 @@
-h1 ´{
+h1 {
     color: brown;
 }
 
 body {
     color: black;
+}
+
+div p {
+    color: rgb(125, 96, 163);
+}
+
+h1, p {
+    background-color: bisque;
 }
