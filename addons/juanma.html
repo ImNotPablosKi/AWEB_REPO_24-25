@@ -72,6 +72,45 @@
             height: 4px;
             width: 10%;
         }
+
+        .button_slide {
+            color: #000000;
+            border: 2px solid rgb(66, 157, 218);
+            border-radius: 0px;
+            padding: 18px 36px;
+            display: inline-block;
+            font-family: "Lucida Console", Monaco, monospace;
+            font-size: 14px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            box-shadow: inset 0 0 0 0 #ddc175;
+            -webkit-transition: ease-out 0.4s;
+            -moz-transition: ease-out 0.4s;
+            transition: ease-out 0.4s;
+            background-color: #eec0a1;
+        }
+
+        .slide_down:hover {
+            box-shadow: inset 0 100px 0 0 #D80286;
+        }
+
+        .slide_right:hover {
+            box-shadow: inset 400px 0 0 0 #eb892e;
+        }
+
+        .slide_left:hover {
+            box-shadow: inset 0 0 0 50px #D80286;
+        }
+
+        .slide_diagonal:hover {
+            box-shadow: inset 400px 50px 0 0 #D80286;
+        }
+
+        #outer {
+            width: 364px;
+            margin: 50px auto 0 auto;
+            text-align: center;
+        }
     </style>
 </head>
 <body style="background-color: #333;">
@@ -86,11 +125,20 @@
     <hr>
     <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">Juanma cuando:</h1>
     <hr>
+    <section style="text-align: center;">
+        <h1 style="text-align: center;">Para más información, visite la Wiki oficial de la Breba, En colaoración con <a href="https://github.com/hector6933" target="_blank">@hector6933</a></h1>
+        <button class="button_slide slide_right" type="button">
+            <a href="https://github.com/hector6933/wiki_breba" target="_blank">Wiki Breba</a>
+        </button>
+    </section>
     <section id="juanma" class="section" style="text-align: center;">
         <video controls width="35%%">
             <source src="../img/juanma.mp4" type="video/mp4">
         </video>
     </section>
+    <footer style="text-align: center; background-color: #bb6310;">
+        &copy;Pablo Miguel - Todos los derechos Reservados
+    </footer>
     
 </body>
 </html>
