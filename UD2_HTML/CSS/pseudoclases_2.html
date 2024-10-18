@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclases 2</title>
+    <style>
+        button:hover {
+            color: white;
+        }
+
+        input:hover:focus {
+            color: rgb(133, 101, 192);
+            text-decoration: underline;
+            background-color: rgb(155, 223, 217);
+        }
+
+        button:active {
+            background-color: aquamarine;
+            color: blue;
+        }
+
+        table,
+        th,
+        td {
+            border: 3px solid rebeccapurple;
+            border-collapse: collapse;
+        }
+
+        /* Odd es para elementos impares, Even para los que sean pares*/
+        tr:nth-child(1) {
+            background-color: grey;
+            color: white;
+        }
+
+        /* -- First-Child para la primera fila -- */
+        tr:first-child {
+            background-color: chartreuse;
+        }
+
+        td:hover, th:hover {
+            border: 54px solid purple;
+            background-color: bisque;
+        }
+
+        /*
+        tr:last-child {
+            background-color: blanchedalmond;
+        }
+            */
+
+        input:checked + label {
+            text-transform: uppercase;
+            color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Pseudoclases 2:</h3>
+    <hr>
+    <button>Botón 1</button>
+    <button>Botón 2</button>
+    <button>Botón 3</button>
+    <hr>
+    <h4>Enlaces de interés</h4>
+    <ul>
+        <li><a href="#">Enlace1</a></li>
+        <li><a href="#">Enlace2</a></li>
+        <li><a href="#">Enlace3</a></li>
+    </ul>
+    <input type="email" name="email" id="email" placeholder="E-Mail..."><br><br>
+    <input type="password" name="pas" id="pas" placeholder="Contraseña...">
+    <hr>
+    <br>
+    <table>
+        <tr>
+            <th>LUNES</th>
+            <th>MARTES</th>
+        </tr>
+        <tr>
+            <td>MATES</td>
+            <td>LENGUA</td>
+        </tr>
+        <tr>
+            <td>MATES</td>
+            <td>LENGUA</td>
+        </tr>
+        <tr>
+            <td>MATES</td>
+            <td>LENGUA</td>
+        </tr>
+        <tr>
+            <td>MATES</td>
+            <td>LENGUA</td>
+        </tr>
+        <tr>
+            <td>MATES</td>
+            <td>LENGUA</td>
+        </tr>
+    </table>
+    <hr>
+    <input type="checkbox" name="check" id="a"><label for="a">Aficion 1</label> <br>
+    <input type="checkbox" name="check" id="b"><label for="b">Aficion 2</label> <br>
+    <input type="checkbox" name="check" id="c"><label for="c">Aficion 3</label> <br>
+</body>
+
+</html>
