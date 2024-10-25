@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(248, 146, 63);
+}
+
+.creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ------ MENU PRINCIPAL ------ */
+
+.menu {
+    text-decoration: none;
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    display: flex;
+
+}
+
+a:hover {
+    color: black;
+
+}
+
+.social {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    display: flex;
+}
+
+.boton {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: orange;
+}
+
+.social a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: orange;
+}
+
+.boton a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #F60707C5;
+    color: white;
+}
+
+.boton a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.menu a:hover, .social a:hover {
+    color: blueviolet;
+}
+
+.menu a:active, .social a:active, .boton a:active {
+    color: blueviolet;
+}
+
