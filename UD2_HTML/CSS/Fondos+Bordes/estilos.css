@@ -1,0 +1,19 @@
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: #aaa;
+}
+
+.elemento {
+    width: 100%;
+    height: 200px;
+    background-color: beige;
+    /* Usa el picsum para coger fotos rápidas */
+    background-image: url('https://picsum.photos/200/100');
+    background-repeat: no-repeat;
+    /* Primer número --> Izquierda, Segundo --> Derecha */
+    background-position: 95% 50%;
+    /* Para que la imagen cubra el fondo */
+    background-size: cover;
+    background-attachment: fixed;
+}

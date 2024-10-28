@@ -1,0 +1,61 @@
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    background-color: wheat;
+}
+
+div {
+    padding-left: 5px;
+}
+
+/* El static no lo mueves ni a ostias */
+.static {
+    background-color: #757677;
+    position: static;
+    top: 10px;
+    left: 10px;
+}
+
+/* El relativo si lo puedes mover a placer, Opaca a otros elementos */
+.relative {
+    background-color: #e56b6f;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+/* El absolute solo ocupa cuanto necesita, IGNORA POR COMPLETO al resto de elementos */
+.absoluta {
+    background-color: #eaac8b;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+/* Para fijarlo, incluso si bajas con el ratón */
+.sticky {
+    background-color: aquamarine;
+    position: sticky;
+    top: 0px;
+
+}
+
+.espacio {
+    background-color: darkcyan;
+    height: 1500px;
+}
+
+/* Se mantiene en pantalla, pero debes indicar su posición */
+.fijo {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
