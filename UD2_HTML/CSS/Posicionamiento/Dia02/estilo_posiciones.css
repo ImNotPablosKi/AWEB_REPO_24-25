@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    height: 600px;
+    border: 3px solid black;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 3px;
+}
+
+.fig1, .fig2, .fig3 {
+    width: 500px;
+    height: 200px;
+}
+
+.fig1 {
+    background-color: aquamarine;
+    /*position: absolute;*/
+    /* El absolute se posiciona acorde al último elemento padre
+    POSICIONADO. Los valores tipo "top" y "left" se usarán a 
+    partir de ese elemento padre posicionado */
+    position: fixed;
+    /* El fixed SIEMPRE se posiciona a partir del ViewPort
+    o sea, el punto 0, 0, 0, 0 (arriba a la izquierda) */
+    top: 300px;
+    left: 30px;
+}
+
+.fig2 {
+    background-color: cornflowerblue;
+    /* Recuerda que con static no se mueve */
+}
+
+.fig3 {
+    background-color: lightsalmon;
+}
+
