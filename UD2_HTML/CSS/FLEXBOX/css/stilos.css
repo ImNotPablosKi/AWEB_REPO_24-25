@@ -10,9 +10,11 @@ body {
     padding: 10px;
     display: flex;
     width: 80%;
+    height: 600px;
     flex-direction: row;
     margin: 0 auto;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
 }
 
 .caja {
@@ -23,6 +25,8 @@ body {
     height: 120px;
     line-height: 120px;
     text-align: center;
+    margin: 10px;
+    border-radius: 12px;
 }
 
 .caja1 {
