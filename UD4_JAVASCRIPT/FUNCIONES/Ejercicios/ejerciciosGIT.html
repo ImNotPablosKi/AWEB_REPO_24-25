@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJs</title>
+    <script>
+        // ---- EJERCICIO 1 ---- //
+
+
+        /*function sumar(num1, num2){
+            let resultado = num1 + num2;
+            return resultado;
+        }
+
+        function sumar3(num1, num2, num3){
+            let resultado = num1 + num2 + num3;
+            return resultado;
+        }
+
+        let num1 = parseInt(prompt("Elige un numero"));
+        let num2 = parseInt(prompt("Elige otro numero"));
+        let num1 = 3;
+        let num2 = 4;
+        let suma = sumar(num1, num2)
+        resultado = 5;
+
+        console.log("El resultado es " + suma)*/
+
+        // ---- EJERCICIO 2 ---- //
+
+        // Par o Impar
+        /*function esPar( numero ){
+            if (numero % 2 == 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        let numero = parseInt(prompt("Dame un Número:"));
+
+        let par = esPar(numero);
+
+        if  (par) {
+            alert("El numero es Par")
+        } else {
+            alert("Es Impar")
+        }*/
+
+        // ---- EJERCICIO 3 ---- //
+        // ---- EJERCICIO 4 ---- //
+
+        function areaTriangulo( base, altura ) {
+            return area = (base * altura) / 2;
+        }
+
+        function boton1(){
+        let base = parseInt(prompt("Escribe el valor de la Base:"));
+            let altura = parseInt(prompt("Escribe el valor de la Altura:"));
+            let area = areaTriangulo(base, altura);
+            alert("El area del triángilo es: " + area)
+        }
+
+
+        // ---- EJERCICIO 5 ---- //
+        // ---- EJERCICIO 6 ---- //
+
+        // JODIENDA HISTÓRICA
+
+        function repetirCadena(cadena, veces) {
+            for (let i = 1; i <= veces; i++) {
+                return cadena.repeat(veces);
+            }
+        }
+
+        console.log(repetirCadena("Hola", 4))
+
+        // ---- EJERCICIO 7 ---- //
+
+        function promedio(nombre, a, b, c) {
+            return nombre + "Tiene un: " + (a + b + c) / 3
+        }
+
+        console.log(promedio("Pablo",5,6,7));
+        
+        // ---- EJERCICIO 8 ---- //
+        // ---- EJERCICIO 9 ---- //
+        // ---- EJERCICIO 10 ---- //
+
+    </script>
+</head>
+<body>
+    <h1>EJERCICIOS</h1>
+    <hr>
+    <br>
+    <button onclick="boton1()">Calcular area Triangular</button>
+</body>
+</html>
