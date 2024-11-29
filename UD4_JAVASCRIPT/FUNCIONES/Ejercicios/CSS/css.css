@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cascadia Code;
+    font-weight: lighter;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: grey;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+button:hover {
+    border-radius: 5px;
+    border: 2px solid lightcoral;
+    padding: 10px;
+    color: lightcoral;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: black;
+    scale: 1.1;
+    font-weight: bold;
+}
