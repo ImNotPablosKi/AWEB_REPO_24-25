@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+    <script>
+        function fondoRojo() {
+            let body = document.body;
+            body.style.background = 'red';
+        }
+
+        function fondoVerde() {
+            let body = document.body;
+            body.style.background = 'green';
+        }
+
+        function fondoBlanco() {
+            let body = document.body;
+            body.style.background = 'white';
+        }
+        
+    </script>
+</head>
+<body>
+    <header  id="primero">
+        <h1 class="titulo">Titulo de mi WEB</h1>
+    </header>
+    <main id="principal">
+        <p class="parrafo">Parrafo</p>
+        <p class="parrafo">Parrafo</p>
+        <p class="parrafo">Parrafo</p>
+        <hr>
+        <p class="parrafo">Parrafo</p>
+        <button id="boton" onclick="fondoRojo()">
+            FondoRojo
+        </button>
+        <button id="boton" onclick="fondoVerde()">
+            FondoVerde
+        </button>
+        <button id="boton" onclick="fondoBlanco()">
+            FondoBlanco
+        </button>
+    </main>
+    
+</body>
+</html>
