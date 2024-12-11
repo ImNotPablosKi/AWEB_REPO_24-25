@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.container div {
+    background-color: lightcoral;
+    border: 2px solid black;
+    padding: 3px;
+}
+
+.n1 {
+    grid-column: 1/6;
+}
+.n2 {
+    grid-row: 2/4;
+}
+.n3 {
+    grid-column: 2/5;
+}
+.n4 {}
+.n5 {}
+.n6 {
+    grid-column: 5/6;
+    grid-row: 2/4;
+}
+.n7 {}
+.n8 {}
