@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jajajajaj</title>
+    <script src="repaso2.js"></script>
+    <style>
+        button {
+            display: block;
+            margin: 10px;
+            border: 2px solid black;
+            padding: 7px;
+            border-radius: 5px;
+            transition: all 0.2s;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background-color: lightcoral;
+            cursor: pointer;
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            display: grid;
+            gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+
+        .container div {
+            border: 2px solid black;
+            background-color: lightcoral;
+            padding: 10px;
+        }
+
+        .n1 {
+            grid-row: 1/3;
+        }
+        .n2 {
+            grid-column: 2/4;
+        }
+        .n3 {
+            grid-column: 4/6;
+        }
+        .n4 {
+            grid-row: 2/4;
+        }
+        .n5 {
+            grid-column: 3/5;
+            grid-row: 2/4;
+        }
+        .n6 {
+            grid-row: 2/5;
+        }
+        .n7 {
+            grid-column: 2/4;
+        }
+        .n8 {
+            grid-row: 3/5;
+        }
+        .n9 {
+            grid-column: 4/5;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Paranoia</h1>
+    <hr>
+    <button onclick="fondoAzul()">Fondo Azul</button>
+    <button onclick="fondoCustom()">Fondo Custom</button>
+    <button onclick="colorMasTexto()">Cambia Texto y Color del Titulo ^^</button>
+    <button onclick="eliminar()">Quitar un Párrafo</button>
+    <button onclick="cositas()">Muchas Cosas</button>
+    <hr>
+    <p id="p1">PARRAFO 1</p>
+    <p id="p1">PARRAFO 2</p>
+    <p id="p1">PARRAFO 3</p>
+    <hr>
+    <h1>GRID</h1>
+    <div class="container">
+        <div class="n1">1</div>
+        <div class="n2">2</div>
+        <div class="n3">3</div>
+        <div class="n4">4</div>
+        <div class="n5">5</div>
+        <div class="n6">6</div>
+        <div class="n7">7</div>
+        <div class="n8">8</div>
+        <div class="n9">9</div>
+    </div>
+</body>
+</html>

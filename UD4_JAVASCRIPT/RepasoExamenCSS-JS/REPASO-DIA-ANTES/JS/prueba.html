@@ -5,9 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cosas</title>
     <script src="prueba.js"></script>
+    <style>
+
+        .container {
+            display: grid;
+            gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+
+        .container div {
+            border: 2px solid black;
+            padding: 10px;
+            background-color: lightcoral;
+        }
+
+        .n1 {
+            grid-row: 1/3;
+        }
+        .n2 {
+            grid-column: 2/4;
+        }
+        .n3 {
+            grid-column: 4/6;
+        }
+        .n4 {
+            grid-row: 2/4;
+        }
+        .n5 {
+            grid-row: 2/4;
+            grid-column: 3/5;
+        }
+        .n6 {
+            grid-row: 2/5;
+        }
+        .n7 {
+            grid-column: 2/4;
+        }
+        .n8 {
+            grid-row: 3/5;
+        }
+        .n9 {}
+
+        button {
+            display: inline;
+            padding: 7px;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            transition: all 0.2s;
+            margin: 5px;
+        }
+         button:hover {
+            cursor: pointer;
+            background-color: lightcoral;
+            transform: scale(1.040);
+         }
+    </style>
 </head>
 <body>
-    <h1 id="titulo">Repaso</h1>
+    <h1 style="text-decoration: underline;" id="titulo">Repaso :D</h1>
     <hr>
     <h2>Cosas: <span id="texto"></span></h2>
     <button onclick="cambioTexto()">Cambiar texto</button>
@@ -15,5 +72,44 @@
     <button onclick="azul()">Fondo Azul</button>
     <button onclick="titulo()">Color del titulo</button>
     <button onclick="crear()">Crear parrafo</button>
+    <button onclick="tablaPersonalizada()">Tabla de Multiplicar</button>
+    <hr>
+    <h2 style="text-decoration: underline;">GRID Layout</h2>
+    <div class="container">
+        <div class="n1">1</div>
+        <div class="n2">2</div>
+        <div class="n3">3</div>
+        <div class="n4">4</div>
+        <div class="n5">5</div>
+        <div class="n6">6</div>
+        <div class="n7">7</div>
+        <div class="n8">8</div>
+        <div class="n9">9</div>
+    </div>
+    <hr>
+    <h2 style="text-decoration: underline;" id="titulo2">Más Funciones y tal:</h2>
+    <button onclick="cosasBasicas()">Cosas Báscicas</button>
+    <button onclick="coloryTitulo()">Cambia el Titulo y color de este Apartado</button>
+    <button onclick="cambiarFondo()">Cambiar Fondo de la Página</button>
+    <button onclick="parrafoNuevo()">Crear Parrafo</button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <br>
+    <p id="p1">PARRAFO 1</p>
+    <p id="p2">PARRAFO 2</p>
+    <p id="p3">PARRAFO 3</p>
+    <p id="p4">PARRAFO 4</p>
+    <p id="p5">PARRAFO 5</p>
+
+
 </body>
 </html>
