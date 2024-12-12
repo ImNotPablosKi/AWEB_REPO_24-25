@@ -47,3 +47,13 @@ function repetir() {
     let veces = parseInt(prompt("Cuantas veces lo repito?"))
     console.log(texto.repeat(veces))
 }
+
+function sumar100_2(){
+    let suma = 0;
+    let i = 1;
+    while (i<=100) {
+        suma = suma +i;
+        i++
+    }
+    console.log(suma)
+}
