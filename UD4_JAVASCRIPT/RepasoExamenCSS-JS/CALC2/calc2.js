@@ -53,3 +53,21 @@ function mod() {
     }   
 }
 
+
+let i = 0;
+function arrayColor() {
+    let array = ["red","blue","green"]
+    if (i<array.length) {
+        document.body.style.backgroundColor = array[i];
+        i++
+    }
+    if (i == array.length) {
+        i=0;
+    }
+}
+
+function repetir(){
+    let cosa = prompt("Dime algo ermano");
+    let veces = parseInt(prompt("Cuanto lo repito?"))
+    alert(cosa.repeat(veces))
+}
