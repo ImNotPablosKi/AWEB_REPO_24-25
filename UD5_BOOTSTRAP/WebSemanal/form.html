@@ -71,7 +71,7 @@
 <body>
     <header class="text-bg-info p-3">
         <div class="container">
-            <h1 class="primary">FORMULARIO de CONTACTO (Sin empezar)</h1>
+            <h1 class="primary">FORMULARIO de CONTACTO (Por si Steam no es suficiente)</h1>
             <p>-------</p>
             <nav>
                 <a href="index.html">- INICIO -</a>
@@ -88,13 +88,13 @@
 
     </header>
     <div class="container mt-5">
-        <div class="alert alert-danger alert-dismissible d-none" role="alert" id="buenaEsa">
+        <div class="alert alert-danger alert-dismissible d-none" role="alert" id="malaEsa">
           <span>Error al enviar el correo </span>
-          <button class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+          <button class="btn-close" onclick="cerrarMal()"></button>
         </div>
-        <div class="alert alert-success alert-dismissible d-none" role="alert" id="malaEsa">
+        <div class="alert alert-success alert-dismissible d-none" role="alert" id="buenaEsa">
           Correo enviado con éxito !
-          <button class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+          <button class="btn-close" onclick="cerrarBien()"></button>
         </div>
         
         
@@ -165,10 +165,15 @@
                 
               </div>
                 <div class="container">
-                    <button class="btn btn-success mt-3">Envio guapo</button>
-                    <button class="btn btn-warning mt-3">Envio Nuh uh</button>
+                  <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-10"></div>
+                  </div>
+                   
                 </div>
           </form>
+          <button class="btn btn-success mt-3" onclick="exito()">Envio guapo</button>
+          <button class="btn btn-warning mt-3" onclick="nuh()">Envio Nuh uh</button>
       </div>
     <hr>
     <footer class="text-bg-info p-3">
