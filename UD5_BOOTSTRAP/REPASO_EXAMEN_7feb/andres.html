@@ -13,7 +13,7 @@
     <header class="bg-primary p-3">
         <div class="container text-center">
             <div class="row">
-                <div class="col-12"><h1>BUSTRA</h1></div>
+                <div class="col-12"><h1 class="text-white">BUSTRA</h1></div>
                 <div class="col-12">
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="#" class="text-decoration-none text-white fw-bold">COSA</a></li>
@@ -93,6 +93,118 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="alert alert-warning alert-dismissible collapse" id="alertaMala">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, voluptatem.
+            <button class="btn btn-close" data-bs-toggle="collapse" data-bs-target="#alertaMala"></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="alert alert-success alert-dismissible collapse" id="alertaGuapa">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, labore!
+            <button class="btn btn-close" data-bs-toggle="collapse" data-bs-target="#alertaGuapa"></button>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#alertaGuapa">ENVIAR BIEN</button>
+        <button class="btn btn-danger" data-bs-toggle="collapse" data-bs-target="#alertaMala">ENVIAR MAL</button>
+    </div>
+
+    <div class="container mt-5" id="Toni">
+        <div class="container">
+            <div class="row">
+                <div class="col" data-bs-toggle="collapse" data-bs-target="#pic1">
+                    <img src="../WebSemanal/MEDIA/248-1800x1200.jpg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col" data-bs-toggle="collapse" data-bs-target="#pic2">
+                    <img src="../WebSemanal/MEDIA/382-1800x1200.jpg" alt="" class="img-fluid rounded"> 
+                </div>
+                <div class="col" data-bs-toggle="collapse" data-bs-target="#pic3">
+                    <img src="../WebSemanal/MEDIA/830-1800x1200.jpg" alt="" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col collapse" id="pic1" data-bs-parent="#Toni">
+                    <img src="../WebSemanal/MEDIA/248-1800x1200.jpg" alt="" class="img-fluid rounded" >
+                </div>
+                <div class="col collapse" id="pic2" data-bs-parent="#Toni">
+                    <img src="../WebSemanal/MEDIA/382-1800x1200.jpg" alt="" class="img-fluid rounded" > 
+                </div>
+                <div class="col collapse" id="pic3" data-bs-parent="#Toni">
+                    <img src="../WebSemanal/MEDIA/830-1800x1200.jpg" alt="" class="img-fluid rounded" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="accordion" id="miAcor">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cuerpoAcordeon">ACORDEON</div>
+                </div>
+                <div class="accordion-body accordion-collapse collapse" id="cuerpoAcordeon" data-bs-parent="#miAcor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ab.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cuerpoAcordeon1">ACORDEON</div>
+                </div>
+                <div class="accordion-body accordion-collapse collapse" id="cuerpoAcordeon1" data-bs-parent="#miAcor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ab.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cuerpoAcordeon2">ACORDEON</div>
+                </div>
+                <div class="accordion-body accordion-collapse collapse" id="cuerpoAcordeon2" data-bs-parent="#miAcor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ab.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/600/400" alt="" class="img-fluid">
+                    <div class="card-header">
+                        JEDER
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">TITULO</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, culpa asperiores. Praesentium in a recusandae.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/600/400" alt="" class="img-fluid">
+                    <div class="card-header">
+                        JEDER
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">TITULO</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, culpa asperiores. Praesentium in a recusandae.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/600/400" alt="" class="img-fluid">
+                    <div class="card-header">
+                        JEDER
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">TITULO</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, culpa asperiores. Praesentium in a recusandae.</div>
                     </div>
                 </div>
             </div>
