@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repao</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="bg-primary p-3">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12"><h1 class="text-white">BUSTRAH</h1></div>
+                <div class="col-12">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">COSA</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">COSA</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">COSA</a></li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <img src="https://picsum.photos/3000/400" alt="" class="img-fluid rounded">
+    </header>
+
+    <div class="container my-5">
+        <div class="accordion" id="miAcord">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cuerpo1">TABLA</button>
+                </div>
+                <div class="accordion-body accordion-collapse collapse show" id="cuerpo1" data-bs-parent="#miAcord">
+                    <table class="table table-responsive table-hover">
+                        <thead>
+                            <th>el</th>
+                            <th>den</th>
+                            <th>rin</th>
+                        </thead>
+                        <tbody class="table-group-divider">
+                            <tr>
+                                <td>COSA</td>
+                                <td>COSA</td>
+                                <td>COSA</td>
+                            </tr>
+                            <tr>
+                                <td>COSA</td>
+                                <td>COSA</td>
+                                <td>COSA</td>
+                            </tr>
+                            <tr>
+                                <td>COSA</td>
+                                <td>COSA</td>
+                                <td>COSA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cuerpo2">LOREM</button>
+                </div>
+                <div class="accordion-body accordion-collapse collapse" id="cuerpo2" data-bs-parent="#miAcord">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, repudiandae!</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#cuerpo3">dar sols</button>
+                </div>
+                <div class="accordion-body accordion-collapse collapse" id="cuerpo3" data-bs-parent="#miAcord">
+                    <p>Sister Friede is a Boss enemy in Dark Souls 3. She is part of the Ashes of Ariandel DLC. This Dark Souls 3 Sister Friede Guide features locations, strategies and videos on how to defeat Sister Friede easily, as well as tips, weaknesses, trivia and lore notes for the Sister Friede boss.
+
+                        Sister Friede is dressed in nun's clothing and wields a scythe when fighting the player. She fights alone in the first and third phases of the boss fight and alongside Father Ariandel, a hulking figure who attacks with a large bowl, in the second phase. Rather than having two separate health bars, Friede and Ariandel share a single health bar when fighting together, making the second phase unique in its mechanics</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="alert alert-warning alert-dismissible collapse" id="alertaMal">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, officiis!
+            <button class="btn btn-close" data-bs-toggle="collapse" data-bs-target="#alertaMal"></button>
+        </div>
+    </div>
+    <div class="container my-3">
+        <div class="alert alert-success alert-dismissible collapse" id="alertaBien">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sequi?
+            <button class="btn btn-close" data-bs-toggle="collapse" data-bs-target="#alertaBien"></button>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#alertaBien">Enviar Bien</button>
+        <button class="btn btn-danger" data-bs-toggle="collapse" data-bs-target="#alertaMal">Enviar Mal</button>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4" data-bs-toggle="collapse" data-bs-target="#img1">
+                <img src="../WebSemanal/MEDIA/pic1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4" data-bs-toggle="collapse" data-bs-target="#img2">
+                <img src="../WebSemanal/MEDIA/pic2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4" data-bs-toggle="collapse" data-bs-target="#img3">
+                <img src="../WebSemanal/MEDIA/pic3.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5" id="galeria">
+        <div class="row">
+            <div class="col-12 collapse" data-bs-parent="#galeria" id="img1">
+                <img src="../WebSemanal/MEDIA/pic1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 collapse" data-bs-parent="#galeria" id="img2">
+                <img src="../WebSemanal/MEDIA/pic2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 collapse" data-bs-parent="#galeria" id="img3">
+                <img src="../WebSemanal/MEDIA/pic3.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/600/400" alt="" class="img-fluid">
+                    <div class="card-header">
+                        JEDER
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">TITULO</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque possimus nulla tempore dolorum, neque tenetur!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/600/400" alt="" class="img-fluid">
+                    <div class="card-header">
+                        JEDER
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">TITULO</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque possimus nulla tempore dolorum, neque tenetur!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/600/400" alt="" class="img-fluid">
+                    <div class="card-header">
+                        JEDER
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">TITULO</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque possimus nulla tempore dolorum, neque tenetur!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h1>FORM:</h1>
+        <hr>
+        <form action="">
+            <div class="row">
+                <div class="col-3 mb-3">
+                    <label for="texto" class="form-label">Nombre:</label>
+                </div>
+                <div class="col-9 mb-3">
+                    <input type="text" name="" id="texto" class="form-control">
+                </div>
+                <div class="col-3 mb-3">
+                    <label for="email" class="form-label">Correo:</label>
+                </div>
+                <div class="col-9 mb-3">
+                    <input type="email" name="" id="email" class="form-control">
+                </div>
+                <div class="col-3 mb-3">
+                    <label for="tfno" class="form-label">Telefono:</label>
+                </div>
+                <div class="col-9 mb-3">
+                    <input type="number" name="" id="tfno" class="form-control">
+                </div>
+                <div class="col-3 mb-3">
+                    <label for="comm" class="form-label">Comentarios:</label>
+                </div>
+                <div class="col-9 mb-3">
+                    <textarea name="" id="comm" class="form-control"></textarea>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
